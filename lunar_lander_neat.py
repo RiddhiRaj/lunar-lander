@@ -12,7 +12,7 @@ def eval_genome(genome, config):
     net = neat.nn.FeedForwardNetwork.create(genome, config)
     fitnesses = []
     
-    for _ in range(3):  # Evaluate 3 times
+    for _ in range(2):  # Evaluate 2 times
         env = gym.make("LunarLander-v2")
         observation, _ = env.reset()
         total_reward = 0
