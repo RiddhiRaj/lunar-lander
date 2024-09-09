@@ -2,6 +2,7 @@ import gymnasium as gym
 import neat
 import numpy as np
 import os
+import pickle
 
 # Function to normalize the observation
 def normalize_observation(observation):
@@ -74,13 +75,19 @@ def run_neat():
     population.add_reporter(stats)
 
     # Add checkpointing
-    checkpoint = neat.Checkpointer(generation_interval=100, time_interval_seconds=600)
+    checkpoint = neat.Checkpointer(generation_interval=20, time_interval_seconds=600)
     population.add_reporter(checkpoint)
 
 
     # Run the NEAT algorithm
     winner = population.run(eval_population, 500)  # Increased to 500 generations
     print('\nBest genome:\n{!s}'.format(winner))
+
+    # Add this block to save the winner genome
+    with open('winner_genome.pkl', 'wb') as f:
+        pickle.dump(winner, f)
+
+    
     return winner, config
 
 # Visualize the winner agent playing the game
