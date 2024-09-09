@@ -61,7 +61,7 @@ def run_neat():
     population.add_reporter(stats)
 
     # Add checkpointing
-    checkpoint = neat.Checkpointer(generation_interval=50, time_interval_seconds=600)
+    checkpoint = neat.Checkpointer(generation_interval=100, time_interval_seconds=600)
     population.add_reporter(checkpoint)
 
     # Run the NEAT algorithm
