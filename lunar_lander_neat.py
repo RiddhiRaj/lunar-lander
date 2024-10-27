@@ -8,7 +8,7 @@ import pickle
 def normalize_observation(observation):
     return (observation - np.mean(observation)) / (np.std(observation) + 1e-8)
 
-# Define a function to evaluate a genome's fitness
+# function to evaluate a genome's fitness
 def eval_genome(genome, config):
     net = neat.nn.FeedForwardNetwork.create(genome, config)
     fitnesses = []
@@ -49,12 +49,12 @@ def eval_genome(genome, config):
     
     return sum(fitnesses) / len(fitnesses)  # Return average fitness
 
-# Define a function to evaluate the entire population
+# function to evaluate the entire population
 def eval_population(genomes, config):
     for genome_id, genome in genomes:
         genome.fitness = eval_genome(genome, config)
 
-# Load NEAT configuration file
+# Loading the NEAT configuration file
 def run_neat():
     local_dir = os.path.dirname(__file__)
     config_path = os.path.join(local_dir, "config-feedforward.txt")
