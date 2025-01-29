@@ -1,0 +1,6 @@
+gymnasium
+neat-python
+numpy
+os
+pickle
+graphviz

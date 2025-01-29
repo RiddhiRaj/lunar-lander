@@ -1,1 +1,16 @@
-/winner_genome.pkl
+winner_genome.pkl
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+ENV/
+.idea/
+*.log
+*.csv
+checkpoint/
+best_genome/
+temp/
+models/
