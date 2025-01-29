@@ -2,19 +2,21 @@
 
 Introducing you to a project that implements a solution to the classic Lunar Lander problem using the NEAT (NeuroEvolution of Augmenting Topologies) algorithm using the [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) Environment
 
-![Demo of trained NEAT agent landing the spacecraft successfully](lander.gif)
+<img src="lander.gif" width="500" alt="Demo of trained NEAT agent landing the spacecraft successfully"/>
+
 *Demonstration of a trained neural network successfully landing the spacecraft*
 
-## Overview
+
+## 1. Overview
 
 The Lunar Lander environment is a classic problem where the goal is to safely land a spacecraft on the moon's surface. In this project, we employ the NEAT algorithm to evolve neural networks that can control the lander to achieve a safe landing.
 
-## Technical Details
+## 2. Technical Details
 
 This project implements `Reinforcement Learning` through neuroevolution. The NEAT algorithm evolves neural networks that learn optimal control policies through interaction with the environment. The networks receive state observations as input and output control actions, improving their performance through evolutionary selection.
 
 
-## Repository Contents
+## 3. Repository Contents
 
 - `lunar_lander_neat.py`: The main script that sets up the environment and runs the NEAT algorithm.
 - `config-feedforward.txt`: Configuration file for the NEAT algorithm.
