@@ -89,3 +89,12 @@ This project utilizes the NEAT-Python library for implementing the NEAT algorith
 ---
 
 Feel free to explore the code and experiment with different configurations to improve the lander's performance or maybe optimize it with other methods. Happy coding!
+
+## Tags 🏷️
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![NEAT](https://img.shields.io/badge/NEAT-Algorithm-blue)
+![Gymnasium](https://img.shields.io/badge/Gymnasium-Environment-green)
+![RL](https://img.shields.io/badge/Reinforcement-Learning-red)
+![Neural Networks](https://img.shields.io/badge/Neural-Networks-yellow)
