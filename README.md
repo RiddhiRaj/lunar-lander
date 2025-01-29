@@ -4,9 +4,12 @@ Introducing you to a project that implements a solution to the classic Lunar Lan
 
 -----------------------
 
-<img src="lander.gif" width="500" alt="Demo of trained NEAT agent landing the spacecraft successfully"/>
+<p align="center">
+  <img src="lander.gif" width="500" alt="Demo of trained NEAT agent landing the spacecraft successfully"/>
+</p>
 
-*Demonstration of a trained neural network successfully landing the spacecraft*
+<p align="center"><em>Demonstration of a trained neural network successfully landing the spacecraft</em></p>
+
 
 ------------------------
 
