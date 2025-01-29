@@ -2,10 +2,13 @@
 
 Introducing you to a project that implements a solution to the classic Lunar Lander problem using the NEAT (NeuroEvolution of Augmenting Topologies) algorithm using the [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) Environment
 
+-----------------------
+
 <img src="lander.gif" width="500" alt="Demo of trained NEAT agent landing the spacecraft successfully"/>
 
 *Demonstration of a trained neural network successfully landing the spacecraft*
 
+------------------------
 
 ## 1. Overview
 
