@@ -39,23 +39,15 @@ To run this project, follow these steps:
    git clone https://github.com/RiddhiRaj/lunar-lander.git
    cd lunar-lander
    ```
-2. **Set up a Python virtual environment:**
-    
-    Create a virtual environment
-    ```bash
-    python -m venv venv
-    ```
-    
-    Activate the virtual environment
-    On Windows:
-    ```bash
-    .\venv\Scripts\activate
-    ```
+2. **Set up a Python virtual environment (miniconda):**
+   
+    `On Windows:`
+   
+    Follow this video: https://youtu.be/gMgj4pSHLww?si=2RrSagciWi8ybbx0 (it does not work otherwise)
 
-    On Unix or MacOS:
-    ```bash
-    source venv/bin/activate
-    ```
+    `On Unix or MacOS:`
+   
+    Follow the official github of Gymnasium: https://github.com/Farama-Foundation/Gymnasium
 
 2. **Install the required dependencies:**
 
